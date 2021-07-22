@@ -1,0 +1,182 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+    min-height: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Anonymous Pro', monospace;  
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(255,255,255,.75);
+    background-color: #1d1d1d;  
+}
+.line-1{
+    position: relative;
+    width: 8em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+    font-size: 50px;
+    height: 60px;
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+            blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 9em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
+#about_me_desc{
+    font-size: 80px;
+    width: 50%;
+}
+#ab{
+    text-decoration: none;
+    color: white;
+}
+#side{
+    width:25%; 
+    height: 100px;
+}
+#ab_sec{
+    text-align: center;
+}
+.header{
+    width: 13rem;
+    background-color: #181818;
+    height: 100vh;
+    position: fixed;
+    lefT: 0;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 3;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#men_dec{
+    display: inline;
+    margin-right: 500px;
+    transform: translate(-50%, -50%);
+}
+.links{
+    padding: 10px;
+    font-size: 50px;
+}
+#main_text{
+    text-align: center;
+}
+#hi{
+    position: absolute;
+    left: 13%;
+    font-size: 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-image: linear-gradient(45deg, 
+                    #7794ff, 
+                    #44107A,
+                    #FF1361,
+                    #FFF800);
+    animation: .8s shake 2 alternate;
+}
+#Aryan{
+    position: absolute;
+    left: 13%;
+    font-size: 200px;
+    top: 22%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-image: linear-gradient(45deg, 
+                    #7794ff, 
+                    #44107A,
+                    #FF1361,
+                    #FFF800);
+    animation: .8s shake 2 alternate;
+    height: 400px;
+}
+#a{
+    position: absolute;
+    left: 13%;
+    font-size: 200px;
+    top: 35%;
+    font-weight: 900;
+    background: url(Program-Code-Feature-Image.jpg);
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0.08);
+    animation: zoomout 10s ease 500ms forwards;
+}
+
+
+@keyframes zoomout {
+    from {
+    background-size: 40%;
+    }
+    to {
+    background-size: 10%;
+     }
+}
+
+@keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    25% { transform: skewX(0deg); }
+    30% { transform: skewX(0deg); }
+    35% { transform: skewX(0deg); }
+    40% { transform: skewX(0deg); }
+    45% { transform: skewX(0deg); }
+    50% { transform: skewX(0deg); }
+    55% { transform: skewX(0deg); }
+    60% { transform: skewX(0deg); }
+    65% { transform: skewX(0deg); }
+    70% { transform: skewX(0deg); }
+    75% { transform: skewX(0deg); }
+    80% { transform: skewX(0deg); }
+    85% { transform: skewX(0deg); }
+    90% { transform: skewX(0deg); }
+    95% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+}
+ 
